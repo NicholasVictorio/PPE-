@@ -96,4 +96,32 @@ Features:
 ---
 
 ## 📁 Repository Structure
+PPE-/
+│
+├── app/ # Streamlit application
+├── datasets/ # Dataset directory (not included)
+├── runs/ # Training outputs
+├── weights/ # Trained model weights
+├── notebooks/ # Experiments & analysis
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/NicholasVictorio/PPE-.git
+cd PPE-
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Train the Model
+yolo train data=data.yaml model=yolo11n.pt imgsz=640 epochs=200
+
+4️⃣ Run the Web App
+streamlit run app/app.py
 
