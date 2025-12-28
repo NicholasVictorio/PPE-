@@ -1,0 +1,6 @@
+.vscode/
+dataset/
+dataset_split/
+dataset_working/
+__pycache__/
+*.pyc

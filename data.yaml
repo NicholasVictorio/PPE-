@@ -1,0 +1,13 @@
+path: c:\Users\nicho\Dokumen\Projects\PPE\dataset_split
+path: dataset_split
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 4
+names:
+  0: apron
+  1: hairnet
+  2: mask
+  3: gloves
