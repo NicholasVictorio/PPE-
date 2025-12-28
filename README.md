@@ -96,6 +96,7 @@ Features:
 ---
 
 ## 📁 Repository Structure
+```
 PPE-/
 │
 ├── app/ # Streamlit application
@@ -105,7 +106,7 @@ PPE-/
 ├── notebooks/ # Experiments & analysis
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
 
