@@ -63,7 +63,7 @@ Key training settings:
 - Image size: `640 × 640`
 - Optimizer: YOLO default
 - Batch size: `16`
-- Epochs: `≤ 200` (with early stopping)
+- Epochs: `max 300` (with early stopping , patience=50)
 - Augmentation:
   - Horizontal flip
   - Scaling
